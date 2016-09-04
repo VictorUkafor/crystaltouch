@@ -1,0 +1,319 @@
+body {
+    background-color:#f4f4f4;
+	margin:0px auto;
+	min-width:100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+
+.head{
+	height:130px;
+	
+}
+
+.logo{
+	margin-top:40px;
+	margin-left:3.48%;
+}
+
+.login-section{
+	min-height:768px;
+}
+
+.contact-form{
+	width:40%;
+	margin-left:30%;
+	margin-top:150px;
+}
+
+
+.contact-form h1{
+	font-family:maiandra gd;
+	font-size:20px;
+	padding-bottom:10px;
+	font-weight:bold;
+	padding-left:20%;
+	color:#0b85c2;
+	
+}
+
+#name,#email{
+	font-family:maiandra gd;
+	font-size:14px;
+	font-weight:normal;
+	color:black;
+	text-align:left;
+	margin-top:-10px;
+	padding-left:0;
+}
+
+
+#name2,#email2{
+	font-family:maiandra gd;
+	font-size:12px;
+	height:40px;
+	margin-bottom:10px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	background-color:color;
+	border:1px solid #bebebe;
+	border-radius:0;
+}
+
+#send{
+	font-size:14px;
+	font-family:candara;
+	font-weight:bold;
+	background-color:#0b85c2;
+	color:white;
+	width:24%;
+	border-radius:0;
+	float:right;
+	outline:none;
+}
+
+#send:hover{
+	color:#0b85c2;
+	background-color:#f4f4f4;
+	border:1px solid #bebebe;
+}
+
+.lastast{
+	font-family:corbel;
+	font-size:12px;
+	color:black;
+	position:absolute;
+	margin-top:-45px;
+	margin-left:20%;
+}
+
+.ast{
+	color:red;
+}
+
+.aster{
+	color:red;
+	font-size:14px;
+}
+
+
+.return a{
+	font-family:maiandra gd;
+	font-size:13px;
+	font-weight:normal;
+	padding-top:20px;
+	padding-left:20%;
+	color:#0b85c2;
+	outline:none;
+}
+
+.return a:hover{
+	color:black;
+}
+
+
+/*----------------------------small screens and phones---------------------------*/
+
+
+@media screen and (max-width:900px){
+	
+	.contact-form{
+	width:50%;
+	margin-left:20%;
+	margin-top:150px;
+}
+
+	
+}
+
+
+
+@media screen and (max-width:699px){
+	
+	.head{
+	height:70px;
+	
+}
+	
+	.logo{
+	width:22%;
+	margin-top:25px;
+	}
+	
+	.contact-form{
+	width:110%;
+	margin-left:3%;
+	margin-top:50px; 
+}
+	
+	.contact-form h1{
+	font-size:15px;
+}
+	
+	
+	#name,#email{
+	font-size:12px;
+	width:100%;
+	margin-top:-5px;
+	margin-left:5%;
+	padding-left:0;
+	padding-bottom:0px;
+}
+
+#name2,#email2{
+	font-size:11px;
+	height:37px;
+	margin-bottom:5px;
+	border-radius:0;
+}
+
+#send{
+	font-size:12px;
+	width:100%;
+	height:30px;
+	margin-left:-22%;
+	float:left;
+}
+	
+	.lastast{
+	font-family:corbel;
+	font-size:12px;
+	color:black;
+	position:relative;
+	margin-top:5px;
+	margin-left:3%;
+}
+
+
+	
+	
+}
+
+
+
+@media screen and (max-width:400px){
+	
+	.head{
+	height:65px;
+	
+}
+	
+	.logo{
+	width:24%;
+	margin-top:25px;
+	}
+	
+}
+
+
+
+
+/*----------------------------large screens---------------------------*/
+@media screen and (min-width:1280px){
+	
+	
+	.rest{
+	margin-left:13.5%;
+	max-width:80%;
+	}
+	
+	
+}
+
+@media screen and (min-width:1440px){
+	.rest{
+	margin-left:17.5%;
+	max-width:70%;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+.last-f{
+	height:auto;
+	width:100%;
+	background-color:black;
+}
+
+.last-f p{
+	font-family:candara;
+	font-size:11px;
+	color:white;
+	margin-left:12%;
+	padding-top:8px;
+}
+
+.last-f a{
+	color:white;
+	outline:none;
+	text-decoration:none;
+}
+
+.last-f a:hover{
+	text-decoration:underline;
+}
+
+
+.vick{
+	font-family:corbel;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.vick:hover{
+	color:#b0b0b0;
+}
+
+
+.vick1{
+	color:#10cdd1;
+}
+
+.vick1:hover{
+	color:#10cdd1;
+}
+
+
+/*----------------------------small screens and phones---------------------------*/
+
+
+@media screen and (max-width:900px){
+
+.last-f p{
+	margin-left:5%;
+}	
+	
+}
+
+
+@media screen and (max-width:699px){
+	
+
+.last-f p{
+	font-size:10px;
+	margin-left:3%;
+	line-height:23px;
+}
+
+	
+}
+
+@media screen and (max-width:320px){
+
+	
+	.logo{
+	width:26%;
+	margin-top:30px;
+	}
+	
+}
+/*----------------------------large screens---------------------------*/
